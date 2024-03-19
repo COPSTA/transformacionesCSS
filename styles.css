@@ -31,3 +31,14 @@ body{
     z-index:2; /*Este elemento estara detras del elemento ground*/
     margin-top: 100px;
   }
+
+  .back-mountain{
+    width:300px;
+    height:300px;
+    background:linear-gradient(rgb(203, 241, 228),rgb(47, 170, 255));
+    position:absolute;
+    z-index: 1; /*Cambia el nivel de pila del elemento, estara detras de los elementos con mayor nivel que el*/
+    rotate: 45deg; /*rotamos el elemento a 45 grados */
+    left:110px; /*Modificados la posicion del elemnto 110 px a la izquierda*/
+    top:225px; /*Modificados la posicion del elemnto 110 px arriba*/
+  }
