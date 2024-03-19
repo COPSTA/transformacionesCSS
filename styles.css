@@ -13,4 +13,21 @@ body{
   background:linear-gradient(90deg,rgb(88, 175, 236),rgb(182, 255, 255));
   z-index:3; /*Sera el tercer elemento apilado en la pagina*/
   position:absolute;
+  margin-top: -58px;
 }
+
+.penguin{
+    width:300px;
+    height:300px;
+    margin: 75px auto 0;
+  }
+
+  .left-mountain {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(rgb(203, 241, 228), rgb(80, 183, 255));
+    position: absolute; /*Al cambiar la posicion del elemento a absolute este no empujara los demas elementos hacia abajo*/
+    transform:skew(0deg, 44deg);
+    z-index:2; /*Este elemento estara detras del elemento ground*/
+    margin-top: 100px;
+  }
